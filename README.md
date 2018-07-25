@@ -44,16 +44,16 @@ Colorless Cards Include
 
 1. Assess [0]
    -Skill
-   -If the enemy intends to attack, draw 2 cards.
+   -If the enemy intends to attack, draw 2(3) cards.
 2. Degenerate [2]
    -Attack
-   -Deal 15 damage. Add a cheaper, weaker copy of this card into your discard pile.
+   -Deal 15(19) damage. Add a cheaper, weaker copy of this card into your discard pile.
 3. Feint [2]
    -Skill
-   -If the enemy intends to debuff you, gain 10 block and gain 1 artifact.
+   -If the enemy intends to debuff you, gain 8(10) block and gain 1(2) artifact.
 4. Reforge [3]
    -Skill
-   -Upgrade your hand. Cards that are already upgraded cost 1 less to play for the rest of combat.
+   -Upgrade your hand. Cards that are already upgraded cost 1 less to play for the rest of combat. Exhaust(Doesn't Exhaust)
 5. Sharp Hide [1]
    -Skill
-   -Gain 2 Thorns. Exhaust.
+   -Gain 2 Thorns. Exhaust.(Doesn't Exhaust)
