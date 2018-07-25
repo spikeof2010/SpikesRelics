@@ -5,6 +5,10 @@ import basemod.interfaces.EditRelicsSubscriber;
 import basemod.interfaces.EditStringsSubscriber;
 import basemod.interfaces.PostDrawSubscriber;
 import cards.colorless.*;
+import cards.curses.CloudedMind;
+import cards.curses.Hatred;
+import cards.curses.Intolerance;
+import cards.curses.Notoriety;
 import com.badlogic.gdx.Gdx;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -45,6 +49,11 @@ public class ModInitializer implements PostDrawSubscriber, EditRelicsSubscriber,
         BaseMod.addCard(new Assess());
         BaseMod.addCard(new Feint());
         BaseMod.addCard(new Reforge());
+        BaseMod.addCard(new Intolerance());
+        BaseMod.addCard(new Notoriety());
+        BaseMod.addCard(new Hatred());
+        BaseMod.addCard(new CloudedMind());
+        BaseMod.addCard(new BlessedFruit());
 
     }
     public void receiveEditRelics() {
@@ -59,6 +68,8 @@ public class ModInitializer implements PostDrawSubscriber, EditRelicsSubscriber,
         BaseMod.addRelic(new ExplosiveVial(), RelicType.SHARED);
         BaseMod.addRelic(new MiniBlackHole(), RelicType.SHARED);
         BaseMod.addRelic(new CosmicIsotope(), RelicType.SHARED);
+        BaseMod.addRelic(new HeavenlyBonsai(), RelicType.SHARED);
+        BaseMod.addRelic(new ToxicTincture(), RelicType.GREEN);
         RelicLibrary.addBlue(new AncientExoskeleton());
     }
     @Override

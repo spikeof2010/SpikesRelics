@@ -38,22 +38,36 @@ A pack of ~12 relics along with 5 colorless cards.
 12. Wizard Hat
     - Uncommon Relic
     - Whenever you play 3 or more skills in a single turn, draw 2 more cards your next turn.
+13. Toxic Tincture
+	- Shop Relic for Silent
+	- Shivs now apply 2 poison on hit.
 	
 	
 Colorless Cards Include
 
 1. Assess [0]
-   -Skill
-   -If the enemy intends to attack, draw 2(3) cards.
+   - Skill
+   - If the enemy intends to attack, draw 2(3) cards.
 2. Degenerate [2]
-   -Attack
-   -Deal 15(19) damage. Add a cheaper, weaker copy of this card into your discard pile.
+   - Attack
+   - Deal 15(19) damage. Add a cheaper, weaker copy of this card into your discard pile.
 3. Feint [2]
-   -Skill
-   -If the enemy intends to debuff you, gain 8(10) block and gain 1(2) artifact.
+   - Skill
+   - If the enemy intends to debuff you, gain 8(10) block and gain 1(2) artifact.
 4. Reforge [3]
-   -Skill
-   -Upgrade your hand. Cards that are already upgraded cost 1 less to play for the rest of combat. Exhaust(Doesn't Exhaust)
+   - Skill
+   - Upgrade your hand. Cards that are already upgraded cost 1 less to play for the rest of combat. Exhaust(Doesn't Exhaust)
 5. Sharp Hide [1]
-   -Skill
-   -Gain 2 Thorns. Exhaust.(Doesn't Exhaust)
+   - Skill
+   - Gain 2 Thorns. Exhaust.(Doesn't Exhaust)
+   
+Curses
+
+1. Intolerance
+   - If you would discard this card, take 3 damage.
+2. Notoriety
+   - At the end of your turn, enemies gain 2 Thorns.
+3. Hatred
+   - At the end of your turn, enemies gain 1 Strength.
+4. Clouded Mind
+   - When you exhaust this card, add a random colorless card to your hand.

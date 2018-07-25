@@ -6,7 +6,7 @@
   },
   "Degenerate": {
     "NAME": "Degenerate",
-    "DESCRIPTION": "Deal !D! Damage. NL Add a Weakened copy of this card to your discard pile."
+    "DESCRIPTION": "Deal !D! Damage. NL If this doesn't cost 0, Add a copy of this card to your discard pile that costs 1 less and does !M! damage."
   },
   "Assess": {
     "NAME": "Assess",
@@ -14,7 +14,27 @@
   },
   "Feint": {
     "NAME": "Feint",
-    "DESCRIPTION": "If an enemy intends to debuff you, gain !M! artifact and ."
+    "DESCRIPTION": "If an enemy intends to debuff you, gain !M! artifact and !B! block."
+  },
+  "Intolerance": {
+    "NAME": "Intolerance",
+    "DESCRIPTION": "If you discard this card, take 3 damage."
+  },
+  "Notoriety": {
+    "NAME": "Notoriety",
+    "DESCRIPTION": "At the end of your turn, enemies gain !M! Thorns."
+  },
+  "Hatred": {
+    "NAME": "Hatred",
+    "DESCRIPTION": "At the end of your turn, enemies gain 1 Strength."
+  },
+  "BlessedFruit": {
+    "NAME": "Blessed Fruit",
+    "DESCRIPTION": "Gain !M! Max Health. NL Draw a card. NL Exhaust."
+  },
+  "CloudedMind": {
+    "NAME": "Clouded Mind",
+    "DESCRIPTION": "If you exhaust this card, add a random colorless card to your hand."
   },
   "Reforge": {
     "NAME": "Reforge",

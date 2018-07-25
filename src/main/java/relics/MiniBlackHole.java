@@ -26,7 +26,9 @@ public class MiniBlackHole extends CustomRelic {
     public MiniBlackHole() {
         super(ID, new Texture(Gdx.files.internal(IMG)), new Texture(Gdx.files.internal(OUTLINE)), RelicTier.COMMON, LandingSound.HEAVY);
     }
-
+    public void atBattleStart() {
+        this.counter = 0;
+    }
     public void onEquip() {
         this.counter = 0;
     }

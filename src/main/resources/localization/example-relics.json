@@ -108,6 +108,24 @@
 			" to ALL enemies."
         ]
     },
+	    "HeavenlyBonsai": {
+        "NAME": "Heavenly Bonsai",
+        "FLAVOR": "It leaves resemble angel wings.",
+        "DESCRIPTIONS": [
+            "Upon pick up, add #b2 copies",
+			" of #yBlessed #yFruit",
+			" to your deck."
+        ]
+    },
+	    "ToxicTincture": {
+        "NAME": "Toxic Tincture",
+        "FLAVOR": "The Top Tallying Toxic Tincture That Troubles Too Many.",
+        "DESCRIPTIONS": [
+            "Shivs now apply",
+			" #b2 #yPoison",
+			" on hit."
+        ]
+    },
 	    "RollingBoulder": {
         "NAME": "Rolling Boulder",
         "FLAVOR": "Keeps on tumbling.",

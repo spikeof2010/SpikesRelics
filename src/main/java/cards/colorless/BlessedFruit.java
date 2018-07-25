@@ -10,40 +10,42 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.ThornsPower;
 
-public class Assess
+public class BlessedFruit
         extends AbstractCard
 {
-    public static final String ID = "Assess";
-    private static CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("Assess");
+    public static final String ID = "BlessedFruit";
+    private static CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings("BlessedFruit");
     public static String NAME = cardStrings.NAME;
     public static String DESCRIPTION = cardStrings.DESCRIPTION;
 
-    public Assess()
+    public BlessedFruit()
     {
-        super("Assess", NAME, "status/beta", "status/beta", 0, DESCRIPTION, AbstractCard.CardType.SKILL, AbstractCard.CardColor.COLORLESS, AbstractCard.CardRarity.UNCOMMON, AbstractCard.CardTarget.ENEMY);
-        this.baseMagicNumber = 2;
+        super("BlessedFruit", NAME, "status/beta", "status/beta", 1, DESCRIPTION, AbstractCard.CardType.SKILL, AbstractCard.CardColor.COLORLESS, AbstractCard.CardRarity.SPECIAL, AbstractCard.CardTarget.SELF);
+        this.baseMagicNumber = 1;
         this.magicNumber = this.baseMagicNumber;
+        this.exhaust = true;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        if (m.intent == AbstractMonster.Intent.ATTACK || m.intent == AbstractMonster.Intent.ATTACK_BUFF || m.intent == AbstractMonster.Intent.ATTACK_DEBUFF ||   m.intent == AbstractMonster.Intent.ATTACK_DEFEND)
-            AbstractDungeon.actionManager.addToBottom(new DrawCardAction(p, this.magicNumber));
+        AbstractDungeon.player.increaseMaxHp(this.magicNumber, true);
+        AbstractDungeon.actionManager.addToBottom(new DrawCardAction(p, 1));
     }
 
     public AbstractCard makeCopy()
     {
-        return new Assess();
+        return new BlessedFruit();
     }
 
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
             this.upgradeMagicNumber(1);
+            this.upgradeBaseCost(0);
         }
 
     }
     static {
-        cardStrings = CardCrawlGame.languagePack.getCardStrings("Assess");
+        cardStrings = CardCrawlGame.languagePack.getCardStrings("BlessedFruit");
         NAME = cardStrings.NAME;
         DESCRIPTION = cardStrings.DESCRIPTION;
     }
