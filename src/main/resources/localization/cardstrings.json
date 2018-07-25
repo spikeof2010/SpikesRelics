@@ -1,0 +1,24 @@
+{
+  "Sharp Hide": {
+    "NAME": "Sharp Hide",
+    "DESCRIPTION": "Gain !M! Thorns. NL Exhaust.",
+	"UPGRADE_DESCRIPTION": "Gain !M! Thorns."
+  },
+  "Degenerate": {
+    "NAME": "Degenerate",
+    "DESCRIPTION": "Deal !D! Damage. NL Add a Weakened copy of this card to your discard pile."
+  },
+  "Assess": {
+    "NAME": "Assess",
+    "DESCRIPTION": "If an enemy intends to attack, draw !M! cards."
+  },
+  "Feint": {
+    "NAME": "Feint",
+    "DESCRIPTION": "If an enemy intends to debuff you, gain !M! artifact and ."
+  },
+  "Reforge": {
+    "NAME": "Reforge",
+    "DESCRIPTION": "Upgrade your hand. Cards already upgraded cost 1 less to play. NL Exhaust",
+    "UPGRADE_DESCRIPTION": "Upgrade your hand. Cards already upgraded cost 1 less to play."
+  }
+}

@@ -1,0 +1,120 @@
+{
+		"ToyHorse": {
+        "NAME": "Toy Horse",
+        "FLAVOR": "Painted with birds.",
+        "DESCRIPTIONS": [
+            "At the start of your turn, if you have less than",
+			" 50% health, gain 2",
+			" Strength and draw a card."
+        ]
+    },
+		"DaevaFist": {
+        "NAME": "Daeva Fist",
+        "FLAVOR": "Forged by anger.",
+        "DESCRIPTIONS": [
+            "For every 4 skills you play",
+			" deal 4 damage to all",
+			" enemies and gain 2 plated armor."
+        ]
+    },
+	    "CrustySpines": {
+        "NAME": "Crusty Spines",
+        "FLAVOR": "Forged by anger and some other crusty bits.",
+        "DESCRIPTIONS": [
+            "At the beginning of your",
+			" turn, gain 1",
+			" Thorns."
+        ]
+    },
+	    "ExplosiveVial": {
+        "NAME": "Explosive Vial",
+        "FLAVOR": "Concoctions you know better not to mess with.",
+        "DESCRIPTIONS": [
+            "Whenever you drink a",
+			" potion, deal 7 damage to",
+			" ALL enemies."
+        ]
+    },
+	    "CosmicIsotope": {
+        "NAME": "Cosmic Isotope",
+        "FLAVOR": "Fallen from the sky. It radiates a comforting light.",
+        "DESCRIPTIONS": [
+			"ALL enemies start with #b5 #yArmor and #b1 #yArtifact.",
+            "Gain [R] at the start of each turn.",
+			"Gain [G] at the start of each turn.",
+			"Gain [B] at the start of each turn."
+        ]
+    },
+	    "Sandwich": {
+        "NAME": "Sandwich",
+        "FLAVOR": "A delectable treat for you to eat.",
+        "DESCRIPTIONS": [
+            "At the beginning of your turn,",
+			" draw #b1 card and add a random card",
+			" to your hand. It costs #b0 until end of turn."
+        ]
+    },
+	    "WizardHat": {
+        "NAME": "Wizard Hat",
+        "FLAVOR": "Weaved with arcane power",
+        "DESCRIPTIONS": [
+            "Every time you play #b3 skills in a single turn",
+			", draw #b2 more cards",
+			" next turn."
+        ]
+    },
+	    "BrokenLever": {
+        "NAME": "Broken Lever",
+        "FLAVOR": "Addicted to gambling.",
+        "DESCRIPTIONS": [
+            "Every 15 turns,",
+			" gain 50",
+			" gold and a random relic."
+        ]
+    },
+	    "GloomPolyp": {
+        "NAME": "Gloom Polyp",
+        "FLAVOR": "A pus of malevolence.",
+        "DESCRIPTIONS": [
+            "At the beginning of each combat, gain #b2 #yNoxious #yFumes.",
+			"Every 2 turns, gain #b1 #yNoxious #yFumes",
+			"."
+        ]
+    },
+	    "SnailShell": {
+        "NAME": "Snail Shell",
+        "FLAVOR": "Used to be home to someone.",
+        "DESCRIPTIONS": [
+            "At the beginning of combat,",
+			" gain 1 Plated Armor, 1 Metallicize, 1 Blur",
+			" and 3 block."
+        ]
+    },
+	    "AncientExoskeleton": {
+        "NAME": "Ancient Exoskeleton",
+        "FLAVOR": "Manufactured by past residents. Extremely resillient.",
+        "DESCRIPTIONS": [
+            "At the beginning of combat,",
+			" gain #b1 #yFocus, #b2 #yOrb #ySlots, and",
+			" #b11 #yblock."
+        ]
+    },
+	    "MiniBlackHole": {
+        "NAME": "Miniature Black Hole",
+        "FLAVOR": "How are you holding this?",
+        "DESCRIPTIONS": [
+            "Every #b5 turns",
+			", apply #ySlow",
+			" to ALL enemies."
+        ]
+    },
+	    "RollingBoulder": {
+        "NAME": "Rolling Boulder",
+        "FLAVOR": "Keeps on tumbling.",
+        "DESCRIPTIONS": [
+            "Every #b4 turns,",
+			" gain #b20",
+			" block."
+        ]
+    }
+}
