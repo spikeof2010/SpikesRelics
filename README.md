@@ -2,58 +2,58 @@
 
 A pack of ~12 relics along with 5 colorless cards.
 
-1.Ancient Exoskeleton
-	- Boss Relic for Defect
-	- Start off combat with +1 focus, +2 orb slots, 1 frost channeled, and 11 block.
-2.Cosmic Isotope
-	- Boss Relic
-	- At the beginning of your turn, add 1 energy. Enemies start combat with 5 plated armor and 1 artifact.
-3.Crusty Spines
-	- Common Relic
-	- At the beginning of each turn, gain 1 thorns.
-4.Daeva Fist
-	- Uncommon Relic
-	- For every 4 skills you play, deal 3 damage to all enemies and gain 2 plated armor.
-5.Explosive Vial
-	- Shop Relic
-	- Whenenver you use a potion, deal 7 damage to ALL enenies.
+1. Ancient Exoskeleton
+   - Boss Relic for Defect
+   - Start off combat with +1 focus, +2 orb slots, 1 frost channeled, and 11 block.
+2. Cosmic Isotope
+   - Boss Relic
+   - At the beginning of your turn, add 1 energy. Enemies start combat with 5 plated armor and 1 artifact.
+3. Crusty Spines
+   - Common Relic
+   - At the beginning of each turn, gain 1 thorns.
+4. Daeva Fist
+   - Uncommon Relic
+   - For every 4 skills you play, deal 3 damage to all enemies and gain 2 plated armor.
+5. Explosive Vial
+   - Shop Relic
+   - Whenenver you use a potion, deal 7 damage to ALL enenies.
 6.Gloom Polyp
-	- Boss Relic for Silent
-	- At the beginning of combat, gain 2 Noxious Fumes. Every 2 turns, gain 1 Noxious Fumes.
-7.Miniature Black Hole
-	- Rare Relic
-	- Every 5 turns, apply slow to the enemy.
-8.Rolling Boulder
-	- Common Relic
-	- Every 4 turns, gain 20 block.
-9.Sandwich
-	- Boss Relic
-	- At the beginning of each turn, draw 1 card and add one card at random to your hand. It costs 0 until end of turn.
-10.Snail Shell
-	- Common Relic
-	- At the beginning of combat, gain 1 Metallicize, 1 Plated Armor, 1 Blur, and 3 block.
-11.Toy Horse
-	- Uncommon Relic
-	- At the beginning of your turn, if you're below 50% HP, gain 2 strength.
-12.Wizard Hat
-	- Uncommon Relic
-	- Whenever you play 3 or more skills in a single turn, draw 2 more cards your next turn.
+   - Boss Relic for Silent
+   - At the beginning of combat, gain 2 Noxious Fumes. Every 2 turns, gain 1 Noxious Fumes.
+7. Miniature Black Hole
+   - Rare Relic
+   - Every 5 turns, apply slow to the enemy.
+8. Rolling Boulder
+   - Common Relic
+   - Every 4 turns, gain 20 block.
+9. Sandwich
+   - Boss Relic
+   - At the beginning of each turn, draw 1 card and add one card at random to your hand. It costs 0 until end of turn.
+10. Snail Shell
+    - Common Relic
+    - At the beginning of combat, gain 1 Metallicize, 1 Plated Armor, 1 Blur, and 3 block.
+11. Toy Horse
+    - Uncommon Relic
+    - At the beginning of your turn, if you're below 50% HP, gain 2 strength.
+12. Wizard Hat
+    - Uncommon Relic
+    - Whenever you play 3 or more skills in a single turn, draw 2 more cards your next turn.
 	
 	
 Colorless Cards Include
 
-1.Assess [0]
-	-Skill
-	-If the enemy intends to attack, draw 2 cards.
-2.Degenerate [2]
-	-Attack
-	-Deal 15 damage. Add a cheaper, weaker copy of this card into your discard pile.
-3.Feint [2]/
-	-Skill
-	-If the enemy intends to debuff you, gain 10 block and gain 1 artifact.
-4.Reforge [3]
-	-Skill
-	-Upgrade your hand. Cards that are already upgraded cost 1 less to play for the rest of combat.
-5.Sharp Hide [1]
-	-Skill
-	-Gain 2 Thorns. Exhaust.
+1. Assess [0]
+   -Skill
+   -If the enemy intends to attack, draw 2 cards.
+2. Degenerate [2]
+   -Attack
+   -Deal 15 damage. Add a cheaper, weaker copy of this card into your discard pile.
+3. Feint [2]
+   -Skill
+   -If the enemy intends to debuff you, gain 10 block and gain 1 artifact.
+4. Reforge [3]
+   -Skill
+   -Upgrade your hand. Cards that are already upgraded cost 1 less to play for the rest of combat.
+5. Sharp Hide [1]
+   -Skill
+   -Gain 2 Thorns. Exhaust.
