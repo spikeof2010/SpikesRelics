@@ -41,7 +41,9 @@ A pack of ~12 relics along with 5 colorless cards.
 13. Toxic Tincture
 	- Shop Relic for Silent
 	- Shivs now apply 2 poison on hit.
-	
+14. Heavenly Bonsai
+    - Rare Relic
+	- Upon pickup, add two Blessed Fruit to your deck.
 	
 Colorless Cards Include
 
@@ -60,6 +62,9 @@ Colorless Cards Include
 5. Sharp Hide [1]
    - Skill
    - Gain 2 Thorns. Exhaust.(Doesn't Exhaust)
+6. Blessed Fruit [1]
+   - Skill
+   - Gain 1(2) MHP. Draw a card. Exhaust.
    
 Curses
 
