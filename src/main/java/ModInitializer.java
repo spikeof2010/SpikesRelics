@@ -21,7 +21,6 @@ public class ModInitializer implements PostDrawSubscriber, EditRelicsSubscriber,
 
     public ModInitializer(){
         //Use this for when you subscribe to any hooks offered by BaseMod.
-        BaseMod.subscribeToEditRelics(this);
         BaseMod.subscribe(this);
     }
 
