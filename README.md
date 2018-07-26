@@ -50,6 +50,7 @@ A pack of ~12 relics along with 5 colorless cards.
 16. Hailfire Sword
 	- Boss Relic for Ironclad
 	- At the beginning of your turn, gain 1 strength. At the beginning of combat, shuffle 2 copies of The Serpent into your draw pile.
+	
 Colorless Cards Include
 
 1. Assess [0]
