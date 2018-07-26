@@ -5,10 +5,10 @@ import basemod.interfaces.EditRelicsSubscriber;
 import basemod.interfaces.EditStringsSubscriber;
 import basemod.interfaces.PostDrawSubscriber;
 import cards.colorless.*;
-import cards.curses.CloudedMind;
-import cards.curses.Hatred;
-import cards.curses.Intolerance;
-import cards.curses.Notoriety;
+import cards.curses.*;
+import cards.green.RiggedDeckCard;
+import cards.red.Absolvement;
+import cards.red.BarbarianYell;
 import com.badlogic.gdx.Gdx;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -54,11 +54,17 @@ public class ModInitializer implements PostDrawSubscriber, EditRelicsSubscriber,
         BaseMod.addCard(new Hatred());
         BaseMod.addCard(new CloudedMind());
         BaseMod.addCard(new BlessedFruit());
+        BaseMod.addCard(new TheSerpent());
+        BaseMod.addCard(new RiggedDeckCard());
+        BaseMod.addCard(new Roar());
+        BaseMod.addCard(new BarbarianYell());
+        BaseMod.addCard(new Absolvement());
 
     }
     public void receiveEditRelics() {
         BaseMod.addRelic(new ToyHorse(), RelicType.SHARED);
         BaseMod.addRelic(new DaevaFist(), RelicType.SHARED);
+        BaseMod.addRelic(new GolemAmulet(), RelicType.RED);
         BaseMod.addRelic(new CrustySpines(), RelicType.SHARED);
         BaseMod.addRelic(new Sandwich(), RelicType.SHARED);
         BaseMod.addRelic(new RollingBoulder(), RelicType.SHARED);
@@ -70,6 +76,7 @@ public class ModInitializer implements PostDrawSubscriber, EditRelicsSubscriber,
         BaseMod.addRelic(new CosmicIsotope(), RelicType.SHARED);
         BaseMod.addRelic(new HeavenlyBonsai(), RelicType.SHARED);
         BaseMod.addRelic(new ToxicTincture(), RelicType.GREEN);
+        BaseMod.addRelic(new HailfireSword(), RelicType.RED);
         RelicLibrary.addBlue(new AncientExoskeleton());
     }
     @Override
@@ -77,7 +84,7 @@ public class ModInitializer implements PostDrawSubscriber, EditRelicsSubscriber,
         String relicStrings = Gdx.files.internal("localization/example-relics.json").readString(
                 String.valueOf(StandardCharsets.UTF_8));
         BaseMod.loadCustomStrings(RelicStrings.class, relicStrings);
-        String powerStrings = Gdx.files.internal("localization/example-relics.json").readString(
+        String powerStrings = Gdx.files.internal("localization/powerstrings.json").readString(
                 String.valueOf(StandardCharsets.UTF_8));
         BaseMod.loadCustomStrings(PowerStrings.class, powerStrings);
         String cardStrings = Gdx.files.internal("localization/cardstrings.json").readString(

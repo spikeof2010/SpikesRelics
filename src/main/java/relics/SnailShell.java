@@ -11,6 +11,7 @@ import com.megacrit.cardcrawl.core.AbstractCreature;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.powers.*;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
+import powers.RiggedDeck;
 
 public class SnailShell extends CustomRelic {
     public static final String ID = "SnailShell";

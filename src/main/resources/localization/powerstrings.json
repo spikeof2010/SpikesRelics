@@ -1,0 +1,19 @@
+{
+  "RiggedDeck": {
+    "NAME": "Rigged Deck",
+    "DESCRIPTIONS": [
+      "If you draw #b",
+      " more card this turn, deal #b",
+      " damage to ALL enemies. Drawing your hand doesn't count towards this.",
+      " more cards this turn, deal #b"
+    ]
+  },
+  "AbsolvementPower": {
+    "NAME": "Absolvement",
+    "DESCRIPTIONS": [
+      "Whenever a card is #yExhausted, deal #b1 damage.",
+      "Whenever a card is #yExhausted, deal #b",
+      " damage."
+    ]
+  }
+}

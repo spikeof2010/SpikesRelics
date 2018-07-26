@@ -26,6 +26,15 @@
 			" Thorns."
         ]
     },
+	    "GolemAmulet": {
+        "NAME": "Golem Amulet",
+        "FLAVOR": "Etched with the face of a terracotta horror.",
+        "DESCRIPTIONS": [
+            "At the beginning of your",
+			" turn, draw #b1 attack from your",
+			" draw pile."
+        ]
+    },
 	    "ExplosiveVial": {
         "NAME": "Explosive Vial",
         "FLAVOR": "Concoctions you know better not to mess with.",
@@ -124,6 +133,15 @@
             "Shivs now apply",
 			" #b2 #yPoison",
 			" on hit."
+        ]
+    },
+	    "HailfireSword": {
+        "NAME": "Hailfire Sword",
+        "FLAVOR": "An extreme warmth radiates from just the hilt alone.",
+        "DESCRIPTIONS": [
+            "At the beginning of combat, shuffle #b2",
+			" copies of #yThe #ySerpent into your draw pile.",
+			" Gain #b1 #yStrength at the beginning of each turn."
         ]
     },
 	    "RollingBoulder": {

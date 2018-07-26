@@ -17,7 +17,7 @@ A pack of ~12 relics along with 5 colorless cards.
 5. Explosive Vial
    - Shop Relic
    - Whenenver you use a potion, deal 7 damage to ALL enenies.
-6.Gloom Polyp
+6. Gloom Polyp
    - Boss Relic for Silent
    - At the beginning of combat, gain 2 Noxious Fumes. Every 2 turns, gain 1 Noxious Fumes.
 7. Miniature Black Hole
@@ -42,8 +42,11 @@ A pack of ~12 relics along with 5 colorless cards.
 	- Shop Relic for Silent
 	- Shivs now apply 2 poison on hit.
 14. Heavenly Bonsai
-    - Rare Relic
+    - Rare Relic	
 	- Upon pickup, add two Blessed Fruit to your deck.
+15. Golem Amulet
+    - Rare Relic for Ironclad
+	- At the beginning of each turn, draw 1 attack to your hand.
 	
 Colorless Cards Include
 
@@ -65,6 +68,24 @@ Colorless Cards Include
 6. Blessed Fruit [1]
    - Skill
    - Gain 1(2) MHP. Draw a card. Exhaust.
+7. Roar [0]
+   - Skill
+   - Apply 1 Weak and Vulnerable to ALL enemies. Exhaust.
+
+Green Cards Include
+
+1. Rigged Deck [1]
+   - Power
+   - Whenever you draw 3 cards in one turn, deal 5 damage to ALL enemies.
+
+Red Cards Include
+
+1. Barbarian Yell [1]
+	- Skill
+	- Shuffle 2(3) copies of Roar into your deck. Exhaust.
+2. Absolvement [1]
+	- Power
+	- Whenever you exhaust a card, deal 2(3) damage to all enemies.
    
 Curses
 
@@ -76,3 +97,7 @@ Curses
    - At the end of your turn, enemies gain 1 Strength.
 4. Clouded Mind
    - When you exhaust this card, add a random colorless card to your hand.
+   
+   
+   
+  

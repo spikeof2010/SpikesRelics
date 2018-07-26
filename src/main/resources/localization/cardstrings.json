@@ -20,6 +20,10 @@
     "NAME": "Intolerance",
     "DESCRIPTION": "If you discard this card, take 3 damage."
   },
+  "TheSerpent": {
+    "NAME": "The Serpent",
+    "DESCRIPTION": "When drawn, this card deals 3 damage to you."
+  },
   "Notoriety": {
     "NAME": "Notoriety",
     "DESCRIPTION": "At the end of your turn, enemies gain !M! Thorns."
@@ -32,9 +36,27 @@
     "NAME": "Blessed Fruit",
     "DESCRIPTION": "Gain !M! Max Health. NL Draw a card. NL Exhaust."
   },
+  "Roar": {
+    "NAME": "Roar",
+    "DESCRIPTION": "Apply 1 Weak and Vulnerable to ALL enemies. NL Exhaust."
+  },
+  "Absolvement": {
+    "NAME": "Absolvement",
+    "DESCRIPTION": "Whenever you exhaust a card, deal !M! damage to ALL enemies.",
+    "UPGRADE_DESCRIPTION": "Whenever you exhaust a card, deal !M! damage to ALL enemies. NL Innate."
+  },
+  "BarbarianYell": {
+    "NAME": "Barbarian 	Yell",
+    "DESCRIPTION": "Shuffle !M! copies of Roar into your deck. NL Exhaust."
+  },
   "CloudedMind": {
     "NAME": "Clouded Mind",
     "DESCRIPTION": "If you exhaust this card, add a random colorless card to your hand."
+  },
+  "RiggedDeckCard": {
+    "NAME": "Rigged Deck",
+    "DESCRIPTION": "After drawing your hand each turn, whenever you draw 3 cards in 1 turn, deal !M! damage.",
+    "UPGRADE_DESCRIPTION": "After drawing your hand each turn, whenever you draw 3 cards in 1 turn, deal !M! damage. NL Innate."
   },
   "Reforge": {
     "NAME": "Reforge",
