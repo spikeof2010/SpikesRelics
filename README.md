@@ -47,7 +47,9 @@ A pack of ~12 relics along with 5 colorless cards.
 15. Golem Amulet
     - Rare Relic for Ironclad
 	- At the beginning of each turn, draw 1 attack to your hand.
-	
+16. Hailfire Sword
+	- Boss Relic for Ironclad
+	- At the beginning of your turn, gain 1 strength. At the beginning of combat, shuffle 2 copies of The Serpent into your draw pile.
 Colorless Cards Include
 
 1. Assess [0]
@@ -97,6 +99,8 @@ Curses
    - At the end of your turn, enemies gain 1 Strength.
 4. Clouded Mind
    - When you exhaust this card, add a random colorless card to your hand.
+5. The Serpent
+   - Whenever you draw this card, take 3 damage.
    
    
    
