@@ -28,19 +28,20 @@ public class Degenerate
     {
         super("Degenerate", NAME, "status/beta", "status/beta", 2, DESCRIPTION, CardType.ATTACK, AbstractCard.CardColor.COLORLESS, AbstractCard.CardRarity.COMMON, AbstractCard.CardTarget.ENEMY);
         this.baseDamage = 20;
-        this.baseMagicNumber = -6;
+        this.baseMagicNumber = 6;
         this.magicNumber = this.baseMagicNumber;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        AbstractDungeon.actionManager.addToBottom(new DamageAction(m, new DamageInfo(p, this.damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_HEAVY));
-        AbstractDungeon.actionManager.addToBottom(new ReduceCostAction(this, 1));
-        AbstractDungeon.actionManager.addToBottom(new VFXAction(p, new VerticalAuraEffect(Color.FIREBRICK, p.hb.cX, p.hb.cY), 0.0F));
-        if (this.cost != 0){
-            AbstractDungeon.actionManager.addToBottom(new GashAction(this, this.magicNumber));
-            AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(this.makeCopy(), 1, true, true));
-        }
+    AbstractDungeon.actionManager.addToBottom(new DamageAction(m, new DamageInfo(p, this.damage, DamageInfo.DamageType.NORMAL), AbstractGameAction.AttackEffect.SLASH_HEAVY));
+    AbstractDungeon.actionManager.addToBottom(new VFXAction(p, new VerticalAuraEffect(Color.FIREBRICK, p.hb.cX, p.hb.cY), 0.0F));
+    if (this.cost != 0) {
+        AbstractCard c = this.makeStatEquivalentCopy();
+        c.baseDamage -= magicNumber;
+        c.cost -- ;
+        AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(c, 1, true, true));
     }
+}
 
     public AbstractCard makeCopy()
     {

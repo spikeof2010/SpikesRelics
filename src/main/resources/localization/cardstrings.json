@@ -6,7 +6,7 @@
   },
   "Degenerate": {
     "NAME": "Degenerate",
-    "DESCRIPTION": "Deal !D! Damage. NL If this doesn't cost 0, Add a copy of this card to your discard pile that costs 1 less and does !M! damage."
+    "DESCRIPTION": "Deal !D! Damage. NL If this doesn't cost 0, Add a copy of this card to your discard pile that costs 1 less and does !M! less damage."
   },
   "Assess": {
     "NAME": "Assess",
@@ -18,19 +18,41 @@
   },
   "Intolerance": {
     "NAME": "Intolerance",
-    "DESCRIPTION": "If you discard this card, take 3 damage."
+    "DESCRIPTION": "Unplayable. NL If you discard this card, take 3 damage."
+  },
+  "EmpoweredStrikes": {
+    "NAME": "Empowered Strikes",
+    "DESCRIPTION": "Spend 1 Dragon Soul. Add 1 random attack to your hand. It costs 1 less and deals 3 more damage until end of turn.",
+	"UPGRADE_DESCRIPTION": "I have no NL Dragon Souls."
+  },
+  "RefreshScreen": {
+    "NAME": "Refresh Screen",
+    "DESCRIPTION": "Whenever you shuffle your deck, channel a random orb."
+  },
+  "Invigoration": {
+    "NAME": "Invigoration",
+    "DESCRIPTION": "Whenever you play a card, gain 1 Strength until end of turn."
+  },
+  "Pace": {
+    "NAME": "Pace",
+    "DESCRIPTION": "Whenever you play a card this turn, gain 1 Dexterity until end of turn."
+  },
+  "ShadowRift": {
+    "NAME": "Shadow Rift",
+    "DESCRIPTION": "Deal !D! damage. Increase this card's damage by one every time you discard a card. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. Increase this card's damage by one every time you discard a card."
   },
   "TheSerpent": {
     "NAME": "The Serpent",
-    "DESCRIPTION": "When drawn, this card deals 3 damage to you."
+    "DESCRIPTION": "Unplayable. NL When drawn, this card deals 3 damage to you."
   },
   "Notoriety": {
     "NAME": "Notoriety",
-    "DESCRIPTION": "At the end of your turn, enemies gain !M! Thorns."
+    "DESCRIPTION": "Unplayable. NL At the end of your turn, enemies gain !M! Thorns."
   },
   "Hatred": {
     "NAME": "Hatred",
-    "DESCRIPTION": "At the end of your turn, enemies gain 1 Strength."
+    "DESCRIPTION": "Unplayable. NL At the end of your turn, enemies gain 1 Strength."
   },
   "BlessedFruit": {
     "NAME": "Blessed Fruit",
@@ -46,17 +68,21 @@
     "UPGRADE_DESCRIPTION": "Whenever you exhaust a card, deal !M! damage to ALL enemies. NL Innate."
   },
   "BarbarianYell": {
-    "NAME": "Barbarian 	Yell",
+    "NAME": "Barbarian Yell",
     "DESCRIPTION": "Shuffle !M! copies of Roar into your deck. NL Exhaust."
   },
   "CloudedMind": {
     "NAME": "Clouded Mind",
-    "DESCRIPTION": "If you exhaust this card, add a random colorless card to your hand."
+    "DESCRIPTION": "Unplayable. NL If you exhaust this card, add a random colorless card to your hand."
   },
   "RiggedDeckCard": {
     "NAME": "Rigged Deck",
     "DESCRIPTION": "After drawing your hand each turn, whenever you draw 3 cards in 1 turn, deal !M! damage.",
     "UPGRADE_DESCRIPTION": "After drawing your hand each turn, whenever you draw 3 cards in 1 turn, deal !M! damage. NL Innate."
+  },
+  "DragonSoul": {
+    "NAME": "Dragon Soul",
+    "DESCRIPTION": "Gain !M! Dragon Soul. NL Apply 1 Vulnerable to ALL enemies. NL Exhaust."
   },
   "Reforge": {
     "NAME": "Reforge",

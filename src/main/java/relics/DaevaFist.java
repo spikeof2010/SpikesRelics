@@ -44,6 +44,11 @@ public class DaevaFist extends CustomRelic {
             }
         }
     }
+    @Override
+    public String getUpdatedDescription() {
+        return DESCRIPTIONS[0] + DESCRIPTIONS[1] + DESCRIPTIONS[2];
+    }
+
 
     public void onVictory() {
         this.counter = -1;

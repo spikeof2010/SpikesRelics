@@ -4,11 +4,13 @@ import basemod.interfaces.EditCardsSubscriber;
 import basemod.interfaces.EditRelicsSubscriber;
 import basemod.interfaces.EditStringsSubscriber;
 import basemod.interfaces.PostDrawSubscriber;
+import cards.blue.RefreshScreen;
 import cards.colorless.*;
 import cards.curses.*;
+import cards.green.Pace;
 import cards.green.RiggedDeckCard;
-import cards.red.Absolvement;
-import cards.red.BarbarianYell;
+import cards.green.ShadowRift;
+import cards.red.*;
 import com.badlogic.gdx.Gdx;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -23,13 +25,13 @@ import java.nio.charset.StandardCharsets;
 @SpireInitializer
 public class ModInitializer implements PostDrawSubscriber, EditRelicsSubscriber, EditCardsSubscriber, EditStringsSubscriber {
 
-    public ModInitializer(){
+    public ModInitializer() {
         //Use this for when you subscribe to any hooks offered by BaseMod.
         BaseMod.subscribe(this);
     }
 
     //Used by @SpireInitializer
-    public static void initialize(){
+    public static void initialize() {
 
         //This creates an instance of our classes and gets our code going after BaseMod and ModTheSpire initialize.
         ModInitializer modInitializer = new ModInitializer();
@@ -43,7 +45,7 @@ public class ModInitializer implements PostDrawSubscriber, EditRelicsSubscriber,
         System.out.println(card.name + " was drawn!=======================================");
     }
 
-    public void receiveEditCards()  {
+    public void receiveEditCards() {
         BaseMod.addCard(new SharpHide());
         BaseMod.addCard(new Degenerate());
         BaseMod.addCard(new Assess());
@@ -59,8 +61,15 @@ public class ModInitializer implements PostDrawSubscriber, EditRelicsSubscriber,
         BaseMod.addCard(new Roar());
         BaseMod.addCard(new BarbarianYell());
         BaseMod.addCard(new Absolvement());
+        //  BaseMod.addCard(new DragonSoul());
+        // BaseMod.addCard(new EmpoweredStrikes());
+        BaseMod.addCard(new RefreshScreen());
+        BaseMod.addCard(new Invigoration());
+        BaseMod.addCard(new Pace());
+        BaseMod.addCard(new ShadowRift());
 
     }
+
     public void receiveEditRelics() {
         BaseMod.addRelic(new ToyHorse(), RelicType.SHARED);
         BaseMod.addRelic(new DaevaFist(), RelicType.SHARED);
@@ -74,11 +83,13 @@ public class ModInitializer implements PostDrawSubscriber, EditRelicsSubscriber,
         BaseMod.addRelic(new ExplosiveVial(), RelicType.SHARED);
         BaseMod.addRelic(new MiniBlackHole(), RelicType.SHARED);
         BaseMod.addRelic(new CosmicIsotope(), RelicType.SHARED);
+        BaseMod.addRelic(new Rawhide(), RelicType.SHARED);
         BaseMod.addRelic(new HeavenlyBonsai(), RelicType.SHARED);
         BaseMod.addRelic(new ToxicTincture(), RelicType.GREEN);
         BaseMod.addRelic(new HailfireSword(), RelicType.RED);
         RelicLibrary.addBlue(new AncientExoskeleton());
     }
+
     @Override
     public void receiveEditStrings() {
         String relicStrings = Gdx.files.internal("localization/example-relics.json").readString(

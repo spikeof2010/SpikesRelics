@@ -50,7 +50,10 @@ A pack of ~12 relics along with 5 colorless cards.
 16. Hailfire Sword
 	- Boss Relic for Ironclad
 	- At the beginning of your turn, gain 1 strength. At the beginning of combat, shuffle 2 copies of The Serpent into your draw pile.
-	
+17. Rawhide
+    - Uncommon Relic
+	- Whenenver you take attack damage, reduce it by 2.
+
 Colorless Cards Include
 
 1. Assess [0]
@@ -80,15 +83,30 @@ Green Cards Include
 1. Rigged Deck [1]
    - Power
    - Whenever you draw 3 cards in one turn, deal 5 damage to ALL enemies.
+2. Pace [1]
+   - Skill
+   - Whenever you play a card this turn, gain 1 Dexterity until end of turn.
+3. Shadow Rift [2]
+   - Attack
+   - Deal 1 damage. This card deals 1 more damage for each card you discard. Exhaust.
 
 Red Cards Include
 
 1. Barbarian Yell [1]
-	- Skill
-	- Shuffle 2(3) copies of Roar into your deck. Exhaust.
+   - Skill
+   - Shuffle 2(3) copies of Roar into your deck. Exhaust.
 2. Absolvement [1]
-	- Power
-	- Whenever you exhaust a card, deal 2(3) damage to all enemies.
+   - Power
+   - Whenever you exhaust a card, deal 2(3) damage to all enemies.
+3. Invigoration [2]
+   - Power
+   - Whenever you play a card, gain 1 Strength until end of turn.
+   
+Blue Cards Include
+
+1. Refresh Screen [1]
+   - Power
+   - Whenever you shuffle your deck, channel a random orb.
    
 Curses
 

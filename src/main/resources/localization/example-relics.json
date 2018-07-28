@@ -4,17 +4,17 @@
         "FLAVOR": "Painted with birds.",
         "DESCRIPTIONS": [
             "At the start of your turn, if you have less than",
-			" 50% health, gain 2",
-			" Strength and draw a card."
+			" 50% health, gain #b2",
+			" #yStrength and draw a card."
         ]
     },
 		"DaevaFist": {
         "NAME": "Daeva Fist",
-        "FLAVOR": "Forged by anger.",
+        "FLAVOR": "Forged by anger. Drenched in ichor",
         "DESCRIPTIONS": [
-            "For every 4 skills you play",
-			" deal 4 damage to all",
-			" enemies and gain 2 plated armor."
+            "For every #b4 skills you play",
+			" deal #b4 damage to ALL",
+			" enemies and gain #b2 #yPlated #yArmor."
         ]
     },
 	    "CrustySpines": {
@@ -22,8 +22,17 @@
         "FLAVOR": "Forged by anger and some other crusty bits.",
         "DESCRIPTIONS": [
             "At the beginning of your",
-			" turn, gain 1",
-			" Thorns."
+			" turn, gain #b1",
+			" #yThorns."
+        ]
+    },
+	    "Rawhide": {
+        "NAME": "Rawhide",
+        "FLAVOR": "Skin from some gargantuan slumbering creature..",
+        "DESCRIPTIONS": [
+            "Whenever you take attack damage",
+			" from any enemy, reduce that damage",
+			" by #b2."
         ]
     },
 	    "GolemAmulet": {

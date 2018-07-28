@@ -15,5 +15,35 @@
       "Whenever a card is #yExhausted, deal #b",
       " damage."
     ]
+  },
+  "InvigorationPower": {
+    "NAME": "Invigoration",
+    "DESCRIPTIONS": [
+      "Whenever you play a card, gain ",
+      " #yStrength until end of turn."
+    ]
+  },
+  "PacePower": {
+    "NAME": "Pace",
+    "DESCRIPTIONS": [
+      "Whenever you play a card, gain ",
+      " #yDexterity until end of turn."
+    ]
+  },
+  "RefreshScreenPower": {
+    "NAME": "Refresh Screen",
+    "DESCRIPTIONS": [
+      "Whenever you shuffle your deck, channel ",
+      " random orb.",
+      " random orbs."
+    ]
+  },
+  "DragonSoulPower": {
+    "NAME": "Dragon Soul",
+    "DESCRIPTIONS": [
+      "You currently have ",
+      " #yDragon #ySouls.",
+      " Use them to unlock cards."
+    ]
   }
 }
