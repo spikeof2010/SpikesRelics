@@ -25,8 +25,6 @@ public class HailfireSword extends CustomRelic {
     public void atBattleStart() {
         AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new TheSerpent(), 2, true, false));
         AbstractDungeon.actionManager.addToTop(new RelicAboveCreatureAction(AbstractDungeon.player, this));
-        AbstractDungeon.actionManager.addToTop(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new RiggedDeck(AbstractDungeon.player, 5), 1));
-
     }
     @Override
     public void atTurnStart() {
