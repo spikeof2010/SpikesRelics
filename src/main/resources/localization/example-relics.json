@@ -1,6 +1,6 @@
 {
-		"ToyHorse": {
-        "NAME": "Toy Horse",
+		"SpikesRelics:ToyHorsey": {
+        "NAME": "Toy Horsey",
         "FLAVOR": "Painted with birds.",
         "DESCRIPTIONS": [
             "At the start of your turn, if you have less than",
@@ -8,7 +8,16 @@
 			" #yStrength and draw a card."
         ]
     },
-		"DaevaFist": {
+		"SpikesRelics:SneckoPlush": {
+        "NAME": "Snecko Plush",
+        "FLAVOR": "A plushie so cute, you aren't sure why it exists.",
+        "DESCRIPTIONS": [
+            "At the start of each turn,",
+			" randomize the cost",
+			" of one of your cards."
+        ]
+    },
+		"SpikesRelics:DaevaFist": {
         "NAME": "Daeva Fist",
         "FLAVOR": "Forged by anger. Drenched in ichor",
         "DESCRIPTIONS": [
