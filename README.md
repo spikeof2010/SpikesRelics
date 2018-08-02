@@ -1,6 +1,6 @@
 # SpikesRelics
 
-A pack of ~12 relics along with 5 colorless cards.
+A pack of ~12 SpikesRelics.relics along with 5 colorless cards.
 
 1. Ancient Exoskeleton
    - Boss Relic for Defect
@@ -32,7 +32,7 @@ A pack of ~12 relics along with 5 colorless cards.
 10. Snail Shell
     - Common Relic
     - At the beginning of combat, gain 1 Metallicize, 1 Plated Armor, 1 Blur, and 3 block.
-11. Toy Horse
+11. Toy Horsey
     - Uncommon Relic
     - At the beginning of your turn, if you're below 50% HP, gain 2 strength.
 12. Wizard Hat
@@ -53,6 +53,9 @@ A pack of ~12 relics along with 5 colorless cards.
 17. Rawhide
     - Uncommon Relic
 	- Whenenver you take attack damage, reduce it by 2.
+18. Snecko Plush
+	- Shop Relic
+	- At the beginning of your turn, randomize the cost of a card until end of turn.
 
 Colorless Cards Include
 
