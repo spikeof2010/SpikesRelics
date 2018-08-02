@@ -1,6 +1,6 @@
 # SpikesRelics
 
-A pack of ~12 SpikesRelics.relics along with 5 colorless cards.
+A pack of ~18 relics along with 5 colorless cards.
 
 1. Ancient Exoskeleton
    - Boss Relic for Defect
