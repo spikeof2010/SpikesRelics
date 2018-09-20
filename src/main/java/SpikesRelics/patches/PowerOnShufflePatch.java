@@ -11,7 +11,7 @@ import SpikesRelics.interfaces.IShufflePower;
 
 public class PowerOnShufflePatch {
 
-    @SpirePatch(cls = "com.megacrit.cardcrawl.actions.common.EmptyDeckShuffleAction", method = "ctor")
+    @SpirePatch(cls = "com.megacrit.cardcrawl.actions.common.EmptyDeckShuffleAction", method = SpirePatch.CONSTRUCTOR)
     public static class EmptyDeckShufflePatch {
         public static void Postfix(EmptyDeckShuffleAction obj) {
             // triggers BEFORE deck is reshuffled but after relic onShuffles
@@ -41,7 +41,7 @@ public class PowerOnShufflePatch {
         }
     }
 
-    @SpirePatch(cls = "com.megacrit.cardcrawl.actions.defect.ShuffleAllAction", method = "ctor")
+    @SpirePatch(cls = "com.megacrit.cardcrawl.actions.defect.ShuffleAllAction", method = SpirePatch.CONSTRUCTOR)
     public static class ShuffleAllPatch {
         public static void Postfix(ShuffleAllAction obj) {
             // triggers BEFORE deck is reshuffled but after relic onShuffles
