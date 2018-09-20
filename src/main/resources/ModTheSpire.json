@@ -3,7 +3,10 @@
   "name": "Spikes Relics",
   "author_list": ["Spike Berd"],
   "description": "A pack of relic and cards",
-  "version": "0.014",
-  "sts_version": "07-26-2018",
-  "mts_version": "2.9.0"
+  "credits": "Beta Chess, maintenance",
+  "version": "0.02",
+  "sts_version": "09-06-2018",
+  "mts_version": "3.1.0",
+  "dependencies": ["basemod"],
+  "update_json": "https://api.github.com/repos/spikeof2010/SpikesRelics/releases/latest"
 }
