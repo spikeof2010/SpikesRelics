@@ -37,7 +37,7 @@ public class PowerOnShufflePatch {
                 for (final AbstractPower p : m.powers){
                     if (p instanceof IShufflePower) ((IShufflePower)p).onShuffle();
                 }
-            }
+            }  
         }
     }
 
