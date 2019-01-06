@@ -1,0 +1,18 @@
+{
+	"impshop": {
+		"NAME": "Imp Shop",
+		"DESCRIPTIONS": [
+			"You come across a small imp running a shop of some sorts.",
+			"imp shop.",
+			"imp shop.",
+			"imp shop."
+		],
+		"OPTIONS": [
+			"[Continue]",
+			"[Take Off Pants] #rLose ",
+			"[Tug] #gUpgrade ",
+			"[Locked] Requires: Unupgraded Card",
+			"[Leave]"
+		]
+	}
+}

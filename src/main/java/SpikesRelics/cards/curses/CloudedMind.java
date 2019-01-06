@@ -34,7 +34,7 @@ public class CloudedMind
 
     }
     public void triggerOnExhaust() {
-        AbstractCard c = AbstractDungeon.returnTrulyRandomColorlessCard(AbstractDungeon.cardRandomRng).makeCopy();
+        AbstractCard c = AbstractDungeon.returnTrulyRandomColorlessCardInCombat(AbstractDungeon.cardRandomRng).makeCopy();
         AbstractDungeon.actionManager.addToBottom(new MakeTempCardInHandAction(c, 1));
     }
     public AbstractCard makeCopy()

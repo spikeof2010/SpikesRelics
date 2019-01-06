@@ -30,9 +30,63 @@
         "NAME": "Crusty Spines",
         "FLAVOR": "Forged by anger and some other crusty bits.",
         "DESCRIPTIONS": [
-            "At the beginning of your",
-			" turn, gain #b1",
+            "Every #b2",
+			" turns, gain #b1",
 			" #yThorns."
+        ]
+    },
+	    "RetroEgg": {
+        "NAME": "Retro Egg",
+        "FLAVOR": "Makes some good omelets like Mom used to make.",
+        "DESCRIPTIONS": [
+            "Whenever you add a 0-cost card",
+			" to your deck, it is",
+			" #yUpgraded."
+        ]
+    },
+	    "LugNut": {
+        "NAME": "Lug Nut",
+        "FLAVOR": "Getting greasy with it.",
+        "DESCRIPTIONS": [
+            "Whenever you play a 0-cost card",
+			" for the first time each turn, it is",
+			" played twice."
+        ]
+    },
+	    "RoseTintedShades": {
+        "NAME": "Rose Tinted Shades",
+        "FLAVOR": "Yearning for the good old times.",
+        "DESCRIPTIONS": [
+            "Whenever you add a card",
+			" to your deck, increase its special effects by",
+			" #b1."
+        ]
+    },
+	    "SuspiciousGoo": {
+        "NAME": "Suspicious Goo",
+        "FLAVOR": "The strange undesirable relative to royal jelly.",
+        "DESCRIPTIONS": [
+            "If you kill all enemies before turn #b3,",
+			" gain #b3",
+			" Maximum HP."
+        ]
+    },
+	    "CherryCoatedStake": {
+        "NAME": "Cherry Coated Stake",
+        "FLAVOR": "Even vampires have a sweet tooth..",
+        "DESCRIPTIONS": [
+            "Whenever you kill an enemy,",
+			" gain #b2",
+			" #yRegen."
+        ]
+    },
+	    "BlackRope": {
+        "NAME": "Black Rope",
+        "FLAVOR": "Crafted with Transient Sinew.",
+        "DESCRIPTIONS": [
+            "Enemies start each combat with #yStrength down equal to the number of charges on this relic.",
+			" Defeating Elites and Bosses gain 2 #yCharges.",
+			" Starts with 1 #yCharge."
         ]
     },
 	    "Rawhide": {
@@ -94,16 +148,15 @@
         "NAME": "Broken Lever",
         "FLAVOR": "Addicted to gambling.",
         "DESCRIPTIONS": [
-            "Every 15 turns,",
-			" gain 50",
-			" gold and a random relic."
+            "Whenever you play a",
+			" Attack, Skill, and Power in the same turn",
+			" ALL enemies lose #b2 #yStrength."
         ]
     },
 	    "GloomPolyp": {
         "NAME": "Gloom Polyp",
         "FLAVOR": "A pus of malevolence.",
         "DESCRIPTIONS": [
-            "At the beginning of each combat, gain #b2 #yNoxious #yFumes.",
 			"Every 2 turns, gain #b1 #yNoxious #yFumes",
 			"."
         ]
@@ -115,6 +168,24 @@
             "At the beginning of combat,",
 			" gain 1 Plated Armor, 1 Metallicize, 1 Blur",
 			" and 3 block."
+        ]
+    },
+	    "ShockBauble": {
+        "NAME": "Shock Bauble",
+        "FLAVOR": "An inert stone storing electricity.",
+        "DESCRIPTIONS": [
+            "Whenever you play a #yPower,",
+			" gain #b3 #yblock",
+			"."
+        ]
+    },
+	    "GiantMaggot": {
+        "NAME": "Giant Maggot",
+        "FLAVOR": "It feels warm and squishy.",
+        "DESCRIPTIONS": [
+            "Whenever an enemy deals damage to you,",
+			" apply #b2 #yPoison",
+			" to that enemy."
         ]
     },
 	    "AncientExoskeleton": {
@@ -162,12 +233,39 @@
 			" Gain #b1 #yStrength at the beginning of each turn."
         ]
     },
+	    "ZombieTooth": {
+        "NAME": "Zombie Tooth",
+        "FLAVOR": "Looks like it has too many cavities.",
+        "DESCRIPTIONS": [
+            "Every #b4 turns,",
+			" return a card from your discard pile",
+			" to your hand."
+        ]
+    },
+	    "HyperAlloy": {
+        "NAME": "Hyper Alloy",
+        "FLAVOR": "It sparks with a mere touch.",
+        "DESCRIPTIONS": [
+            "Whenever you channel an orb,",
+			" gain #b1",
+			" #yblock."
+        ]
+    },
+	    "BicycleWheel": {
+        "NAME": "Bicycle Wheel",
+        "FLAVOR": "It goes it goes it goes it goes.",
+        "DESCRIPTIONS": [
+            "Every #b10 cards you play",
+			" gain #b1 #ystrength and #ydexterity and",
+			" draw a card."
+        ]
+    },
 	    "RollingBoulder": {
         "NAME": "Rolling Boulder",
         "FLAVOR": "Keeps on tumbling.",
         "DESCRIPTIONS": [
             "Every #b4 turns,",
-			" gain #b20",
+			" gain #b12",
 			" block."
         ]
     }

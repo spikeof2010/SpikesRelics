@@ -22,8 +22,6 @@ public class GloomPolyp extends CustomRelic {
     public void atBattleStart() {
             this.counter = 0;
             flash();
-            AbstractDungeon.actionManager.addToTop(new RelicAboveCreatureAction(AbstractDungeon.player, this));
-            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new NoxiousFumesPower(AbstractDungeon.player,2), 2));
     }
 
     public void onEquip() {

@@ -27,7 +27,9 @@ public class Reforge
     public void use(AbstractPlayer p, AbstractMonster m) {
         for(AbstractCard c : AbstractDungeon.player.hand.group) {
             if(c.upgraded) {
-                c.modifyCostForCombat(-1);
+                if (!c.cardID.equals(Reforge.ID)) {
+                    c.modifyCostForCombat(-1);
+                }
             }
             c.upgrade();
             }

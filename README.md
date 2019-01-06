@@ -9,7 +9,7 @@ A pack of ~18 relics along with 5 colorless cards.
    - Boss Relic
    - At the beginning of your turn, add 1 energy. Enemies start combat with 5 plated armor and 1 artifact.
 3. Crusty Spines
-   - Rare Relic
+   - Common Relic
    - At the beginning of each turn, gain 1 thorns.
 4. Daeva Fist
    - Uncommon Relic
@@ -17,15 +17,15 @@ A pack of ~18 relics along with 5 colorless cards.
 5. Explosive Vial
    - Shop Relic
    - Whenenver you use a potion, deal 7 damage to ALL enenies.
-6. Zombie Tooth
-   - Uncommon Relic
-   - Every 4 turns, return a card from your discard pile to your hand.
+6. Gloom Polyp
+   - Boss Relic for Silent
+   - At the beginning of combat, gain 2 Noxious Fumes. Every 2 turns, gain 1 Noxious Fumes.
 7. Miniature Black Hole
    - Rare Relic
    - Every 5 turns, apply slow to the enemy.
 8. Rolling Boulder
    - Common Relic
-   - Every 4 turns, gain 12 block.
+   - Every 4 turns, gain 20 block.
 9. Sandwich
    - Boss Relic
    - At the beginning of each turn, draw 1 card and add one card at random to your hand. It costs 0 until end of turn.
@@ -52,22 +52,10 @@ A pack of ~18 relics along with 5 colorless cards.
 	- At the beginning of your turn, gain 1 strength. At the beginning of combat, shuffle 2 copies of The Serpent into your draw pile.
 17. Rawhide
     - Uncommon Relic
-    - Whenenver you take attack damage, reduce it by 2.
+	- Whenenver you take attack damage, reduce it by 2.
 18. Snecko Plush
-    - Shop Relic
-    - At the beginning of your turn, randomize the cost of a card until end of turn.
-19. Broken Lever
-    - Common Relic
-    - Whenever you play a Power, Attack, and Skill in the same turn, all enemies lose -2 Strength.
-20. Shock Bauble
-    - Common Relic
-    - Whenever you play a Power, gain 3 block.
-21. Bicycle Wheel
-    - Rare Relic
-    - Every 10 turns, gain 1 Strength and Dexterity and draw a card.
-22. Giant Maggot
-    - Uncommon Relic
-    - Whenever an enemy attacks you, apply 2 poison to that enemy.
+	- Shop Relic
+	- At the beginning of your turn, randomize the cost of a card until end of turn.
 
 Colorless Cards Include
 
@@ -95,10 +83,13 @@ Colorless Cards Include
 
 Green Cards Include
 
-1. Pace [1]
+1. Rigged Deck [1]
+   - Power
+   - Whenever you draw 3 cards in one turn, deal 5 damage to ALL enemies.
+2. Pace [1]
    - Skill
    - Whenever you play a card this turn, gain 1 Dexterity until end of turn.
-2. Shadow Rift [2]
+3. Shadow Rift [2]
    - Attack
    - Deal 1 damage. This card deals 1 more damage for each card you discard. Exhaust.
 
@@ -130,7 +121,7 @@ Curses
    - At the end of your turn, enemies gain 1 Strength.
 4. Clouded Mind
    - When you exhaust this card, add a random colorless card to your hand.
-5. The Serpent [Special]
+5. The Serpent
    - Whenever you draw this card, take 3 damage.
    
    

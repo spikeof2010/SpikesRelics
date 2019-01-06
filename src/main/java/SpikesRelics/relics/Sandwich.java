@@ -22,7 +22,7 @@ public class Sandwich extends CustomRelic {
             flash();
             AbstractDungeon.actionManager.addToBottom(new RelicAboveCreatureAction(AbstractDungeon.player, this));
             AbstractDungeon.actionManager.addToBottom(new DrawCardAction(AbstractDungeon.player, 1));
-            AbstractCard c = AbstractDungeon.returnTrulyRandomCard(AbstractDungeon.cardRandomRng).makeCopy();
+            AbstractCard c = AbstractDungeon.returnTrulyRandomCardInCombat().makeCopy();
             c.setCostForTurn(0);
             AbstractDungeon.actionManager.addToBottom(new MakeTempCardInHandAction(c, true));
 }

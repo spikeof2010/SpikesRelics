@@ -20,14 +20,18 @@
     "NAME": "Intolerance",
     "DESCRIPTION": "Unplayable. NL If you discard this card, take 3 damage."
   },
-  "EmpoweredStrikes": {
-    "NAME": "Empowered Strikes",
-    "DESCRIPTION": "Spend 1 Dragon Soul. Add 1 random attack to your hand. It costs 1 less and deals 3 more damage until end of turn.",
-	"UPGRADE_DESCRIPTION": "I have no NL Dragon Souls."
-  },
   "RefreshScreen": {
     "NAME": "Refresh Screen",
     "DESCRIPTION": "Whenever you shuffle your deck, channel a random orb."
+  },
+  "DiskWipe": {
+    "NAME": "Disk Wipe",
+    "DESCRIPTION": "Whenever you draw a status, channel a random orb."
+  },
+  "PlatinumSkin": {
+    "NAME": "Platinum Skin",
+    "DESCRIPTION": "Whenever you draw an upgraded attack or skill, upgrade its stats.",
+    "UPGRADE_DESCRIPTION": "Innate. NLWhenever you draw an upgraded attack or skill, upgrade its stats."
   },
   "Invigoration": {
     "NAME": "Invigoration",
@@ -37,10 +41,14 @@
     "NAME": "Pace",
     "DESCRIPTION": "Whenever you play a card this turn, gain 1 Dexterity until end of turn."
   },
+  "InfectiousVector": {
+    "NAME": "Infectious Vector",
+    "DESCRIPTION": "Shuffle a copy of this card into your discard pile. NL Whenever this card exhausts, apply !M! Poison to all enemies. NL Ethereal"
+  },
   "ShadowRift": {
     "NAME": "Shadow Rift",
-    "DESCRIPTION": "Deal !D! damage. Increase this card's damage by one every time you discard a card. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. Increase this card's damage by one every time you discard a card."
+    "DESCRIPTION": "Deal !D! damage. Increase this card's damage by !M! every time you discard a card. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. Increase this card's damage by !M! every time you discard a card."
   },
   "TheSerpent": {
     "NAME": "The Serpent",
@@ -60,7 +68,7 @@
   },
   "Roar": {
     "NAME": "Roar",
-    "DESCRIPTION": "Apply 1 Weak and Vulnerable to ALL enemies. NL Exhaust."
+    "DESCRIPTION": "Gain !M! Strength. NL Apply !M! Weak and Vulnerable to ALL enemies. NL Exhaust."
   },
   "Absolvement": {
     "NAME": "Absolvement",
@@ -74,15 +82,6 @@
   "CloudedMind": {
     "NAME": "Clouded Mind",
     "DESCRIPTION": "Unplayable. NL If you exhaust this card, add a random colorless card to your hand."
-  },
-  "RiggedDeckCard": {
-    "NAME": "Rigged Deck",
-    "DESCRIPTION": "After drawing your hand each turn, whenever you draw 3 cards in 1 turn, deal !M! damage.",
-    "UPGRADE_DESCRIPTION": "After drawing your hand each turn, whenever you draw 3 cards in 1 turn, deal !M! damage. NL Innate."
-  },
-  "DragonSoul": {
-    "NAME": "Dragon Soul",
-    "DESCRIPTION": "Gain !M! Dragon Soul. NL Apply 1 Vulnerable to ALL enemies. NL Exhaust."
   },
   "Reforge": {
     "NAME": "Reforge",

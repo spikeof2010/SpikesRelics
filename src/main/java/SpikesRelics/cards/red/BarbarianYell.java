@@ -27,6 +27,7 @@ public class BarbarianYell
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Roar(), this.magicNumber, true, false));
+
     }
 
     public AbstractCard makeCopy()

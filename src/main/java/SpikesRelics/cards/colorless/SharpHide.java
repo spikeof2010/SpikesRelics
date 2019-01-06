@@ -20,7 +20,7 @@
 
         public SharpHide()
         {
-            super("Sharp Hide", NAME, "status/beta", "status/beta", 1, DESCRIPTION, AbstractCard.CardType.SKILL, AbstractCard.CardColor.COLORLESS, AbstractCard.CardRarity.UNCOMMON, AbstractCard.CardTarget.ENEMY);
+            super("Sharp Hide", NAME, "status/beta", "status/beta", 1, DESCRIPTION, AbstractCard.CardType.SKILL, AbstractCard.CardColor.COLORLESS, AbstractCard.CardRarity.UNCOMMON, CardTarget.SELF);
             this.exhaust = true;
             this.baseMagicNumber = 2;
             this.magicNumber = this.baseMagicNumber;

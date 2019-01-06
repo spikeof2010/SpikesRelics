@@ -29,6 +29,7 @@ public class SnailShell extends CustomRelic {
         AbstractDungeon.actionManager.addToBottom(new GainBlockAction(AbstractDungeon.player, AbstractDungeon.player, 3));
     }
 
+
     @Override
     public String getUpdatedDescription() {
         return DESCRIPTIONS[0] + DESCRIPTIONS[1] + DESCRIPTIONS[2];

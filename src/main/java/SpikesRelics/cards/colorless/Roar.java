@@ -29,6 +29,7 @@ public class Roar
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new StrengthPower(AbstractDungeon.player, this.magicNumber), this.magicNumber));
         Iterator var3 = AbstractDungeon.getCurrRoom().monsters.monsters.iterator();
 
         while(var3.hasNext()) {

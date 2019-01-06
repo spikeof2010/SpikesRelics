@@ -38,6 +38,20 @@
       " random orbs."
     ]
   },
+  "DiskWipePower": {
+    "NAME": "Disk Wipe",
+    "DESCRIPTIONS": [
+      "Whenever you draw a status, channel ",
+      " random orb.",
+      " random orbs."
+    ]
+  },
+  "PlatinumSkinPower": {
+    "NAME": "Platinum Skin",
+    "DESCRIPTIONS": [
+      "Whenever you draw an upgraded attack or skill, upgrade its stats."
+    ]
+  },
   "DragonSoulPower": {
     "NAME": "Dragon Soul",
     "DESCRIPTIONS": [
